@@ -11,6 +11,17 @@
     <url-pattern>/cyberlearning/greet</url-pattern>
   </servlet-mapping>
   
+  
+  <servlet>
+    <servlet-name>storeService</servlet-name>
+    <servlet-class>cyber.learning.project.server.StoreServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>storeService</servlet-name>
+    <url-pattern>/cyberlearning/store</url-pattern>
+  </servlet-mapping>  
+  
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>CyberLearning.html</welcome-file>
